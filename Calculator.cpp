@@ -12,5 +12,6 @@ int main() {
     } else {
         std::cout << "Division by zero is not allowed." << std::endl;
     }
+    std::cout << "Power = " << std::pow(a, b) << std::endl;
     return 0;
 }
